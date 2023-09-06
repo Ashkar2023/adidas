@@ -1,0 +1,472 @@
+body{
+    margin: 0px;
+}
+@font-face {
+    src: url(fonts/Hakuna-Sans.otf);
+    font-family: hakuna;
+}
+@font-face {
+    src: url(fonts/AdihausDIN.ttf);
+    font-family: adihaus;
+}
+@font-face {
+    src: url(fonts/CambaiMinimalist-3zeJ6.ttf);
+    font-family: cambai;
+}
+@font-face {
+    src: url(fonts/hakunanCaptain-MdEY.otf);
+    font-family: hakunacap;
+}
+@font-face {
+    src: url(fonts/marvelregular.ttf);
+    font-family: marvel;
+}
+@font-face {
+    src: url(fonts/MontelgoSansSerif-eZ76n.otf);
+    font-family: montelgosans;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Poppins&display=swap');
+.sale {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 14px;
+}
+.logo{
+    display:flex;
+    margin-top:0px;
+}
+#adidaslogo{
+    height: 70px;
+    width: 65x;
+    margin:10px 10px 0px 35px;
+}
+.navigation{
+    display: flex;
+    height: 81px;
+}
+.navbar{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-left: 280px;
+    font-size:0.9em;
+}
+.navbar a{
+    text-decoration: none;
+    margin: 10px;
+    padding-bottom: 11px;
+}
+.nav1{
+    font-family: 'montserrat';
+    font-weight: 600;
+    color: black;
+}
+.nav2{
+    font-family: 'montserrat';
+    font-weight: 400;
+    color: black;
+}
+.nav3{
+    font-family: 'montserrat';
+    font-weight: 600;
+    color: red;
+}
+
+.navbar .nav3:hover{
+    border-bottom:3px solid red;
+}
+.navbar a:hover{
+    border-bottom: 3px solid black;
+}
+.signupnav{
+    position: relative;
+    left: 245px;
+    top: 5px;
+    height: 20px;
+    
+}
+.signupnav a{
+    padding: 0px 10px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: black;
+}
+.signupnav a:hover{
+    text-decoration:underline;
+}
+::placeholder{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:400;
+    font-size: 1.0em;
+    color: black;
+    opacity: 60%;
+}
+.searchlogo{
+    float: left;
+    width: 30px;
+    position: relative;
+    top: 3px;
+    right: 6px;
+}
+.searchbar{
+    position: relative;
+    top: 35px;
+    right: 120px;
+    height: 36px;
+    padding: 3px;
+    background-color: hsla(202, 28%, 89%, 0.777);
+}
+.searchin{
+    background-color: transparent;
+    float: left;
+    width:150px;
+    height: 40px;
+    border: none;
+    border-radius: 1px;
+    outline: none;
+    margin-top: -3px;
+}
+hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    overflow: hidden;
+    border-style: inset;
+    border-width:0px;
+}
+.offer{
+    background-color:hsl(202.73,100%,38.82%);
+    text-align: center;
+    padding:16px ;
+    height: 19px;
+    font-size: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.offer a{
+    text-decoration: underline;
+}
+.profile{
+    position: absolute;
+    top: 77px;
+    left: 1355px;
+    margin-right:50px ;
+    height: 10px;
+
+}
+#p1{
+    width: 30px;
+}
+#p2{
+    position: relative;
+    top: 1px;
+    left: 42px;
+    width: 27px;
+}
+#p3{
+    position: relative;
+    top: 2px;
+    left: 84px;
+    width: 27px;
+}
+
+/*---------------- main---------------- */
+
+.main{
+    background-image: url(assets/main1.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    width: 100%;
+    height: 675px;
+}
+.paydaysale{
+    height:300px ;
+    width:500px ;
+    padding: 155px 130px;
+}
+.paydaysale h1{
+    font-family: hakuna;
+    margin-block-start: 0px;
+    margin-block-end: -15px;
+    word-spacing: 2.8px;
+    letter-spacing: -1.9px;
+    font-size: 2.58em;
+}
+.paydaysale h4{
+    font-family: 'montserrat';
+    font-weight: 600;
+    font-size: 1.05em;
+}
+.btndiv{
+    margin-top: 27px;
+}
+.pdsbtn{
+    margin:5px 0px;
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    font-family: 'montserrat';
+    font-weight: bold;
+    outline:none;
+    border: none;
+    box-shadow: 4px 4px  #94f2f2,5px 5px black;
+}
+.pdsbtn:hover{
+    color: #8c9090;    
+}
+
+/* ---------------main2---------------- */
+
+.main2{
+    background-image: url(assets/main2.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    width: 100%;
+    height: 675px;
+}
+.illegallyfast{
+    padding: 155px 130px;
+    width: 445px;
+    height: 500px;
+}
+.illegallyfast p{
+    color: white;
+    margin-block-start: 0px;
+    font-family: cambai;
+    font-size: 0.7em;
+    padding-bottom: 40px;
+}
+.illegallyfast h1{
+    color: white;
+    font-family: hakuna;
+    word-spacing: 2.8px;
+    font-size: 2.58em;
+}
+.illegallyfast h3{
+    font-family: adihaus;
+    font-weight: 200;
+    color: white;
+}
+.ifbtndiv{
+    margin-top: 27px;
+}
+.ifbtn{
+    margin:5px 0px;
+    padding: 15px 20px;
+    background-color: white;
+    color: black;
+    font-family: 'montserrat';
+    font-weight: bold;
+    outline:none;
+    border: none;
+    box-shadow:4px 4px #414850 ,5px 5px  #ffffff;
+}
+.ifbtn:hover{
+    color: #8c9090;
+}
+
+/*--------------- main3--------------- */
+.popular{
+    display: felx;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom: 70px;
+}
+.popular h1{
+    color: black;
+    font-family: adihaus;
+}
+.popprdcts{
+    display: inline-flex;
+    width: 396px;
+    height: 56px;
+    margin-right: 40px;
+    font-family: adihaus;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.popprdcts:hover{
+    border-bottom: 5px solid black;
+    height: 52px;
+}
+.prodsc{
+    padding-left:100px;
+}
+.pscbtn{
+    padding:14px 13px;
+    margin-left: 5px; 
+    margin-bottom: 35px; 
+    background-color: black;
+    color: white;
+    font-size: 1.03em;
+    font-family: montserrat;
+    font-weight:400 ;
+    border: 0.5px solid black;
+}
+
+.pscbtn:focus{
+    background-color: white;
+    color: black;
+}
+.productdiv{
+    padding: 0px 5% ;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    height: 455px;
+}
+.products{
+    display: inline-block;
+    width: 19%;
+    margin: 4px;
+    padding: 0px 0px;
+    font-family: adihaus;
+    transition: 0.3s;
+}
+.products:hover{
+    border: 1px solid black;
+    transform: perspective(950px) rotateX(10deg);
+    transition: transform 0.5s;
+}
+.prdimg{
+    width: 100%;
+}
+.imgdsp{
+    padding-left: 10px;
+}
+.prdtype{
+    padding:2px 11px;
+    margin-block-start: -20px;
+    color: #8c9090;
+}
+.prdprice{
+    position: relative;
+    width: 25%;
+    bottom:121px ;
+    left:7px;
+    padding: 2px 6px;
+    color: #000000;
+    background-color: #ffffff;
+}
+.goat{
+    text-align: center;
+    padding: 140px 0px;
+    background-image:linear-gradient(rgb(115, 178, 250), black,black);
+}
+.messi{
+    padding: 1px;
+    border:3px solid white;
+}
+.goat H1{
+    font-family: montserrat;
+    letter-spacing: 20px;
+    color: white;
+}
+.nii{
+    margin: 60px 0px;
+    text-align: center;
+}
+.nii h1{
+    font-family: adihaus;
+    letter-spacing: 9px;
+    display: inline-block;
+    margin: 0px 10px 10px;
+}
+.nii img{
+    width: 60px;
+    padding-left: 20px;
+    position: relative;
+    top: 13px;
+}
+
+
+/*-------------footer ------------- */
+footer{
+    background-color: #ffffff;
+}
+.join{
+    display :flex;
+    background-color: #EDE734;
+    height: 130px;
+    justify-content: center;
+}
+.join h2{
+    font-family: hakuna;
+    margin-block-start: 2em;
+    margin-block-end: 0em;
+    text-align: center;
+    word-spacing: 2px;
+}
+.signfree{
+    margin: 40px 50px;
+    color: #ffffff;
+    background-color: black;
+    font-family: montserrat;
+    padding: 0px 15px;
+    font-weight: bold;
+    box-shadow:4px 4px #ede743,5px 5px black;
+}
+.signfree:hover{
+    color: #949f62;
+}
+.list{
+    margin: 10px 0px 20px 230px;
+}
+.list ul{
+    display: inline-table;
+}
+.list li{
+    padding: 4px;
+    font-family: adihaus;
+}
+.list h3{
+    font-family: hakuna;
+}
+.list li::marker{
+    content: none;
+}
+.followus a{
+    text-decoration: none;
+}
+.followions{
+    display: inline-table;
+}
+.socialicons{
+    width: 40px;
+    margin: 3px;
+}
+.cpyrt{
+    margin: 0px 34%;
+    text-align: center;
+}
+.cpyrtul a{
+    padding:0px 10px ;
+    color: #b8bcc0;
+    font-size:13px;
+    font-weight:100;
+    font-family: adihaus;
+    border-right: 1px solid white;
+    text-decoration: none;
+}
+.cpyrtul a:last-child{
+    border-right: none;
+}
+.cpyrt p{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size:13px;
+    color: #c3c8cc;
+    font-family: adihaus;
+}

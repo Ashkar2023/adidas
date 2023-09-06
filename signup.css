@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    src: url(fonts/Hakuna-Sans.otf);
+    font-family: hakuna;
+}
+@font-face {
+    src: url(fonts/AdihausDIN.ttf);
+    font-family: adihaus;
+}
+@font-face {
+    src: url(fonts/CambaiMinimalist-3zeJ6.ttf);
+    font-family: cambai;
+}
+@font-face {
+    src: url(fonts/hakunanCaptain-MdEY.otf);
+    font-family: hakunacap;
+}
+@font-face {
+    src: url(fonts/marvelregular.ttf);
+    font-family: marvel;
+}
+@font-face {
+    src: url(fonts/MontelgoSansSerif-eZ76n.otf);
+    font-family: montelgosans;
+}
+body{
+    scroll-behavior: smooth;
+    background-image: url(assets/stadium.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    height:700px;
+    margin: 0px;
+    backdrop-filter: blur(1.5px);
+}
+.top{
+    display: flex;
+    justify-content: center;
+    height: 170px;
+    width: 100%;
+    background-color: rgb(226, 34, 34);
+}
+.top img{
+    width: 170px;
+    margin: 0px 40px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 160px 0px 20px;
+}
+.form input{
+    width: 381px;
+    margin-bottom: 25px;
+    padding: 16px 25px;
+    outline: none;
+    border-radius: 0px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.form input::placeholder{
+    font-family: hakuna;
+    font-size: 1.1em;
+    opacity: 80%;
+    color: aliceblue;
+}
+.butndiv{
+    text-align: center;
+}
+button{
+    margin-left: 215px;
+    border: none;
+    font-family: adihaus;
+    padding: 15px 28px;
+}
+button:hover{
+    background-color: #e22222;
+    color: white;
+    transition: 0.5s;
+}
